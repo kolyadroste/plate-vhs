@@ -1,0 +1,26 @@
+{
+    "name": "atomicplan/plate-vhs",
+    "version": "0.5.0",
+    "type": "typo3-cms-extension",
+    "description": "provides plate specific viewhelpers",
+    "authors": [
+        {
+            "name": "Kolya von Droste zu Vischering",
+            "role": "Developer"
+        }
+    ],
+    "version": "0.5",
+    "autoload": {
+        "psr-4": {
+            "Atomicplan\\PlateVhs\\": "Classes/"
+        }
+    },
+    "replace": {
+        "typo3-ter/atomicplan/plate-vhs": "self.version"
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "plate_vhs"
+        }
+    }
+}
